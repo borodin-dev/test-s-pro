@@ -7,7 +7,6 @@
 <body>
 <div class="main-section">
     <div class="main-section-head">
-
         <div class="trapezoid-header">
             <img src="img/form_top_blu.png" alt="blue" >
         </div>
@@ -37,26 +36,26 @@
                 <span>virgina travel for kids</span>
             </div>
             <div class="block-1-btns">
-                <ul>
-                    <li class="block-1-btns__btn1"><a href="#" ><i class="fas fa-cloud-download-alt"></i>Button text</a></li>
-                    <li class="block-1-btns__btn2"><a href="#" ><i class="far fa-cloud-download-alt"></i>Button text</a></li>
-                    <li class="block-1-btns__btn3"><a href="#"><i class="far fa-caret-circle-right"></i>Button text</a></li>
+                <ul>&nbsp;
+                    <li class="block-1-btns__btn1"><a href="#"><i class="fa fa-1-bigger fa-cloud-download" aria-hidden="true"></i>&nbsp;Button text</a></li>
+                    <li class="block-1-btns__btn2"><a href="#"><i class="fa fa-1-bigger fa-cloud-download" aria-hidden="true"></i>&nbsp;Button text</a></li>
+                    <li class="block-1-btns__btn3"><a href="#"><i class="fa fa-1-bigger fa-play-circle-o" aria-hidden="true"></i>&nbsp;Button text</a></li>
                 </ul>
             </div>
         </div>
         <div class="block-1-right">
             <div class="block-1-man">
-                <img src="img/backgrounds/Man.png" alt="Man">
+                <img src="img/backgrounds/Man.png" alt="Man" srcset="img/backgrounds/Man@2x.png 2560w">
             </div>
             <div class="block-1-timer">
                 <div class="block-1-timer__title">
                     <span>Title Block</span>
                 </div>
                 <div class="block-1-timer__numbers">
-                    <div><span>Days</span><span>12</span></div>
-                    <div><span>Hours</span><span>09</span></div>
-                    <div><span>Minutes</span><span>45</span></div>
-                    <div><span>Seconds</span><span>00</span></div>
+                    <div class="days"><span>Days</span><span>12</span></div>
+                    <div class="hours"><span>Hours</span><span>09</span></div>
+                    <div class="minutes"><span>Minutes</span><span>45</span></div>
+                    <div class="seconds"><span>Seconds</span><span>00</span></div>
                 </div>
             </div>
         </div>
@@ -64,7 +63,85 @@
 </div>
 
 <div class="slider-section">
-
+    <div id="testimonialSlider">
+        <img src="img/backgrounds/Image_and_bg.png" class="guitar" alt="test">
+        <div id="testimonial">
+            <div class="testimonialSlider-quotes">
+                <img src="img/backgrounds/CombinedShape11.png" alt="Quotes">
+            </div>
+            <div id="testimonialText">
+                <div class="image_news">
+                    <p>111 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <div class="client">
+                        <div class="client-photo">
+                             <img src="img/Group8@2x.png" alt="">
+                        </div>
+                        <div class="client-bio">
+                            <span class="client-name">Roy Rivera</span><br>
+                            <span class="client-position">FrontEnd Developer</span><br>
+                            <span class="client-company">S-PRO</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="image_news">
+                    <p>222 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <div class="client">
+                        <div>
+                            <span class="icon-client">
+                                <img src="img/Group8@2x.png" alt="">
+                            </span>
+                        </div>
+                        <div>
+                            <span class="client-name">Roy Rivera</span><br>
+                            <span class="client-position">FrontEnd Developer</span><br>
+                            <span class="client-company">S-PRO</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="image_news">
+                    <p>333 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <div class="client">
+                        <div>
+                            <span class="icon-client">
+                                <img src="img/Group8@2x.png" alt="">
+                            </span>
+                        </div>
+                        <div>
+                            <span class="client-name">Roy Rivera</span><br>
+                            <span class="client-position">FrontEnd Developer</span><br>
+                            <span class="client-company">S-PRO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="testimonialNav">
+            <div id="testimonialNavPrevious">
+                <img src="img/backgrounds/arrow_left.png" alt="Arrow Prev">
+            </div>
+            <div id="counter">
+                <span id="current">1</span> <span id="total">of 3</span>
+            </div>
+            <div id="testimonialNavNext">
+                <img src="img/backgrounds/arrow_right.png" alt="Arrow Next">
+            </div>
+        </div>
+    </div>
+    <div class="grey-triangle">
+        <img src="img/backgrounds/form_gray_trian.png" alt="Triangle">
+    </div>
 </div>
 
 <div class="timeline-section">
@@ -75,14 +152,19 @@
             <p class="text-center">Party Jokes Startling But  Unnecessary</p>
         </div>
     </div>
+
+    <!-- Timeline -->
+    <!-- First Block -->
     <div class="timeline-section-line pale-blue-line">
         <div class="timeline-section-line__block">
             <div class="pale-blue-line__icon">
                 <img src="img/backgrounds/checked.png" alt="Checked">
             </div>
             <div class="timeline-section-line__block--text">
-                <div class="timeline-vertical"><p class="timeline-year">S1 2018</p></div>
-                <ul>
+                <div class="timeline-vertical">
+                    <p class="timeline-year-s118">S1 2018</p>
+                </div>
+                <ul class="past-text-list">
                     <li>Lorem ipsum dolor sit amet</li>
                     <li>Consectetur adipiscing elit</li>
                     <li>Sed do eiusmod tempor incididunt</li>
@@ -91,14 +173,17 @@
             </div>
         </div>
     </div>
+    <!-- Second Block -->
     <div class="blue-line">
         <div class="timeline-section-line__block">
             <div class="blue-line__icon">
                 <img src="img/backgrounds/Current-time.png" alt="Checked">
             </div>
             <div class="timeline-section-line__block--text right-side">
-                <p class="timeline-year">S2 2018 <span class="timeline-vertical"></span></p>
-                <ul>
+                <div class="timeline-vertical-left current">
+                    <p class="timeline-year-s218">S2 2018</p>
+                </div>
+                <ul class="current-text-list">
                     <li>Consectetur adipiscing elit</li>
                     <li>Sed do eiusmod tempor incididunt</li>
                     <li>Ut enim ad minim veniam</li>
@@ -106,29 +191,35 @@
             </div>
         </div>
     </div>
+    <!-- First Block -->
     <div class="dashed-line">
         <div class="timeline-section-line__block">
             <div class="dashed-line__icon">
                 <img src="img/backgrounds/future-point.png" alt="Checked">
             </div>
             <div class="timeline-section-line__block--text">
-                <p class="timeline-year">S3 2018 <span class="timeline-vertical"></span></p>
-                <ul>
-                    <li>Consectetur adipiscing elit</li>
-                    <li>Sed do eiusmod tempor incididunt</li>
+                <div class="timeline-vertical">
+                    <p class="timeline-year">S3 2018</p>
+                </div>
+                <ul class="future-text-list">
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing</li>
                     <li>Ut enim ad minim veniam</li>
                 </ul>
             </div>
         </div>
     </div>
+    <!-- First Block -->
     <div class="dashed-line-s119">
         <div class="timeline-section-line__block">
             <div class="dashed-line-s119__icon">
                 <img src="img/backgrounds/future-point.png" alt="Checked">
             </div>
-            <div  class="timeline-section-line__block--text">
-                <p class="timeline-year">S1 2019 <span class="timeline-vertical"></span></p>
-                <ul>
+            <div  class="timeline-section-line__block--text right-side">
+                <div class="timeline-vertical-left">
+                    <p class="timeline-year">S1 2019 </p>
+                </div>
+                <ul class="future-text-list">
+                    <li>Lorem ipsum dolor sit amet</li>
                     <li>Consectetur adipiscing elit</li>
                     <li>Sed do eiusmod tempor incididunt</li>
                     <li>Ut enim ad minim veniam</li>
@@ -136,60 +227,70 @@
             </div>
         </div>
     </div>
+    <!-- First Block -->
     <div class="dashed-line-s219">
         <div class="timeline-section-line__block">
             <div class="dashed-line-s219__icon">
                 <img src="img/backgrounds/future-point.png" alt="Checked">
             </div>
             <div  class="timeline-section-line__block--text">
-                <p class="timeline-year">S2 2019 <span class="timeline-vertical"></span></p>
-                <ul>
-                    <li>Consectetur adipiscing elit</li>
-                    <li>Sed do eiusmod tempor incididunt</li>
-                    <li>Ut enim ad minim veniam</li>
+                <div class="timeline-vertical">
+                    <p class="timeline-year">S2 2019</p>
+                </div>
+                <ul class="future-text-list">
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                    <li>Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
                 </ul>
             </div>
         </div>
     </div>
+    <!-- First Block -->
     <div class="dashed-line-s319">
         <div class="timeline-section-line__block">
             <div class="dashed-line-s319__icon">
                 <img src="img/backgrounds/future-point.png" alt="Checked">
             </div>
-            <div class="timeline-section-line__block--text">
-                <p class="timeline-year">S3 2019 <span class="timeline-vertical"></span></p>
-                <ul>
-                    <li>Consectetur adipiscing elit</li>
-                    <li>Sed do eiusmod tempor incididunt</li>
-                    <li>Ut enim ad minim veniam</li>
+            <div class="timeline-section-line__block--text right-side">
+                <div class="timeline-vertical-left">
+                    <p class="timeline-year">S3 2019 </p>
+                </div>
+                <ul class="future-text-list">
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore</li>
+                    <li>Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
                 </ul>
             </div>
         </div>
     </div>
+    <!-- First Block -->
     <div class="dashed-line-s419">
         <div class="timeline-section-line__block">
             <div class="dashed-line-s419__icon">
                 <img src="img/backgrounds/future-point.png" alt="Checked">
             </div>
             <div class="timeline-section-line__block--text">
-                <p class="timeline-year">S4 2019 <span class="timeline-vertical"></span></p>
-                <ul>
-                    <li>Consectetur adipiscing elit</li>
-                    <li>Sed do eiusmod tempor incididunt</li>
-                    <li>Ut enim ad minim veniam</li>
+                <div class="timeline-vertical">
+                    <p class="timeline-year">S4 2019</p>
+                </div>
+                <ul class="future-text-list">
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                    <li>Ut enim ad minim veniam, quis nostrud exercitation</li>
                 </ul>
             </div>
         </div>
     </div>
+    <!-- First Block -->
     <div class="dashed-line-s20__icon">
         <img src="img/Group5.png" alt="Checked">
     </div>
-    <div style="text-align: center">
+    <div class="future-year">
         <div  class="timeline-section-line__block--text">
             <p class="timeline-year-final">2020</p>
         </div>
-        <div>
-            <ul style="display: inline-block">
+        <div class="future-year-block">
+            <ul class="future-text-list" style="display: inline-block">
                 <li>Lorem ipsum dolor sit amet</li>
                 <li>Consectetur adipiscing elit</li>
             </ul>

@@ -1,10 +1,11 @@
 # dependencies
 node_modules
-.idea
-.firebasegit
+
 
 # production
 dist
+/.idea
+/.firebase
 
 # misc
 .DS_Store
