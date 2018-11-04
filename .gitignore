@@ -4,8 +4,8 @@ node_modules
 
 # production
 dist
-/.idea
-/.firebase
+.idea
+.firebase
 
 # misc
 .DS_Store
