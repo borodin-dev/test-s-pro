@@ -882,8 +882,33 @@ footer{
     right: 8.7%;
   }
 }
+@media screen and (min-width: 1441px) and (max-width: 1920px){
+  .flex-container{
+    width: 1720px !important;
+  }
+  .main-section .block-1-man img {
+    height: 852px;
+  }
+  .main-section .block-1-timer {
+    top: 61%;
+    left: 45.5%;
+    background-size: cover;
+  }
+  .slider-section{
+    #testimonialSlider {
+      flex-basis: 100%;
 
-@media screen and (min-width: 1441px) and (max-width:2560px){
+      .guitar{
+        width: 100%;
+        object-fit: cover;
+      }
+      #testimonialNav {
+        right: 4.7%;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1921px) and (max-width:2560px){
   .flex-container{
     width: 2200px !important;
   }
