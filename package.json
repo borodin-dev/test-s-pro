@@ -29,7 +29,7 @@
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
-    "imagemin-webpack-plugin": "^2.3.0",
+    "imagemin-webpack-plugin": "^2.4.2",
     "img-loader": "^3.0.1",
     "mini-css-extract-plugin": "^0.4.4",
     "node-sass": "^4.9.4",
@@ -39,12 +39,12 @@
     "svg-url-loader": "^2.3.2",
     "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.23.1",
-    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-bundle-analyzer": "^3.5.1",
     "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.10",
+    "webpack-dev-server": "^3.8.1",
     "webpack-merge": "^4.1.4"
   },
   "dependencies": {
-    "jquery": "^3.3.1"
+    "jquery": "^3.4.1"
   }
 }
